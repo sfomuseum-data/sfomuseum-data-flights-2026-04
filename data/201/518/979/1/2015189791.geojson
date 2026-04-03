@@ -2,10 +2,12 @@
   "id": 2015189791,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2026-04-02",
     "date:inception_upper": "2026-04-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-02",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2026-04-02T14:43:58-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "SAS",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20260402-D-SAS-3932",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N327NB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -88,13 +96,14 @@
     ],
     "wof:id": 2015189791,
     "wof:involves": [
-      102533795,
-      102527513,
       1159284261,
       1947304677,
-      1159285129
+      1159285129,
+      1159289407,
+      102533795,
+      102527513
     ],
-    "wof:lastmodified": 1775232813,
+    "wof:lastmodified": 1775233128,
     "wof:name": "DL2197 (SFO-LAX)",
     "wof:parent_id": 1947304677,
     "wof:placetype": "custom",
