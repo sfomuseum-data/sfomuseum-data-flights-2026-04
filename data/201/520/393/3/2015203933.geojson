@@ -1,0 +1,109 @@
+{
+  "id": 2015203933,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-04-04",
+    "date:inception_upper": "2026-04-04",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-04-04",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2026-04-04",
+    "flysfo:estimated_timestamp": 1775336700,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA2850",
+    "flysfo:gate": "G2",
+    "flysfo:journey": "BZE-SFO",
+    "flysfo:scheduled_timestamp": 1775337480,
+    "flysfo:timestamp": 1775337480,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,17.539101,-88.308197,37.617990",
+    "geom:latitude": 27.578545499999997,
+    "geom:longitude": -105.33957000000001,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.617615,
+    "lbl:longitude": -122.390247,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102547571,
+    "sfomuseum:flight_id": "20260404-A-UAL-2850",
+    "sfomuseum:flight_number": [
+      "UAL2850",
+      "UA2850"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [
+      1947304067,
+      102527513,
+      1947304129,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1947304141,
+      1947304069,
+      102085387
+    ],
+    "wof:country": "US",
+    "wof:created": 1775405268,
+    "wof:geomhash": "625a6278c08ac9fe0364d10e053173d8",
+    "wof:hierarchy": [
+      {
+        "building_id": 1947304067,
+        "campus_id": 102527513,
+        "concourse_id": 1947304129,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102087579,
+        "custom_id": 2015203933,
+        "flight_id": 2015203933,
+        "locality_id": 85922583,
+        "postalcode_id": 554784711,
+        "region_id": 85688637,
+        "venue_id": 1947304141,
+        "wing_id": 1947304069
+      },
+      {
+        "building_id": 1947304067,
+        "campus_id": 102527513,
+        "concourse_id": 1947304129,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102085387,
+        "custom_id": 2015203933,
+        "flight_id": 2015203933,
+        "region_id": 85688637,
+        "venue_id": 1947304141,
+        "wing_id": 1947304069
+      }
+    ],
+    "wof:id": 2015203933,
+    "wof:involves": [
+      102527513,
+      102547571,
+      1159285413,
+      1947304141
+    ],
+    "wof:lastmodified": 1775405268,
+    "wof:name": "UA2850 (BZE-SFO)",
+    "wof:parent_id": 1947304141,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    17.539101,
+    -88.308197,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-88.308197,17.539101],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
