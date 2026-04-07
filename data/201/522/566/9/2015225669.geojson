@@ -2,10 +2,12 @@
   "id": 2015225669,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-07",
+    "date:cessation_upper": "2026-04-07",
     "date:inception_lower": "2026-04-06",
     "date:inception_upper": "2026-04-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-06",
+    "edtf:cessation": "2026-04-07T09:08:06Z",
+    "edtf:inception": "2026-04-06T23:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -58.794018,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617906,
     "lbl:longitude": -122.390944,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102542801,
     "sfomuseum:base_flight_id": "20260406-D-ACA-3723",
@@ -53,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "143496097",
+      "swim:gufi": "KO6492823Z"
+    },
     "wof:country": "US",
     "wof:created": 1775578622,
     "wof:geomhash": "b03e5f5c78933bb0f626aa81ed57f330",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 2015225669,
     "wof:involves": [
+      1947304145,
+      1159283597,
+      1159289985,
       102542801,
       102527513,
-      1159285413,
-      1947304145,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1775578622,
+    "wof:lastmodified": 1775578705,
     "wof:name": "UA968 (SFO-AMS)",
     "wof:parent_id": 1947304145,
     "wof:placetype": "custom",
