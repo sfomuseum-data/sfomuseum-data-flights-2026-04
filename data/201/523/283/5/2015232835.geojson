@@ -2,10 +2,12 @@
   "id": 2015232835,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-07",
+    "date:cessation_upper": "2026-04-07",
     "date:inception_lower": "2026-04-07",
     "date:inception_upper": "2026-04-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-07",
+    "edtf:cessation": "2026-04-07T21:21:00Z",
+    "edtf:inception": "2026-04-07T19:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:base_flight_id": "20260407-D-ANA-7306",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27520",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "143567823",
+      "swim:gufi": "KO669503f8"
+    },
     "wof:country": "US",
     "wof:created": 1775664888,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -51,13 +64,13 @@
     ],
     "wof:id": 2015232835,
     "wof:involves": [
-      102526751,
       102527513,
       1159285413,
-      -1,
-      1159283875
+      1159283875,
+      1528104577,
+      102526751
     ],
-    "wof:lastmodified": 1775664888,
+    "wof:lastmodified": 1775665032,
     "wof:name": "UA1147 (SFO-PHX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

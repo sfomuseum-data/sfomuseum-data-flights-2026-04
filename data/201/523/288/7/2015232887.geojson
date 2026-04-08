@@ -2,10 +2,12 @@
   "id": 2015232887,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-07",
-    "date:inception_upper": "2026-04-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-07",
+    "date:cessation_lower": "2026-04-07",
+    "date:cessation_upper": "2026-04-07",
+    "date:inception_lower": "2026-04-08",
+    "date:inception_upper": "2026-04-08",
+    "edtf:cessation": "2026-04-07T14:19:00Z",
+    "edtf:inception": "2026-04-07T22:11:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:base_flight_id": "20260407-D-ACA-4046",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N75851",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "143527471",
+      "swim:gufi": "KO405313Us"
+    },
     "wof:country": "US",
     "wof:created": 1775664894,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2015232887,
     "wof:involves": [
+      1159283597,
+      1159289945,
       102531189,
       102527513,
       1159285413,
-      1947304463,
-      1159283597
+      1947304463
     ],
-    "wof:lastmodified": 1775664894,
+    "wof:lastmodified": 1775665032,
     "wof:name": "UA1479 (SFO-DEN)",
     "wof:parent_id": 1947304463,
     "wof:placetype": "custom",
