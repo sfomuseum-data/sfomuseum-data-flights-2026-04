@@ -2,10 +2,12 @@
   "id": 2015234417,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-08",
+    "date:cessation_upper": "2026-04-08",
     "date:inception_lower": "2026-04-08",
     "date:inception_upper": "2026-04-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-08",
+    "edtf:cessation": "2026-04-08T08:18:02-07:00",
+    "edtf:inception": "2026-04-08T20:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "B789",
     "icao:airline": "ACA",
     "icao:base_airline": "SWR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260408-A-SWR-4626",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CFGEI",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "143656168",
+      "swim:gufi": "KS697754lt"
+    },
     "wof:country": "US",
     "wof:created": 1775750553,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2015234417,
     "wof:involves": [
+      1159293215,
       102527513,
       102555307,
       1159283597,
       1947304311,
       1159286475
     ],
-    "wof:lastmodified": 1775750553,
+    "wof:lastmodified": 1775751464,
     "wof:name": "AC566 (YVR-SFO)",
     "wof:parent_id": 1947304311,
     "wof:placetype": "custom",

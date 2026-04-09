@@ -2,10 +2,12 @@
   "id": 2015235721,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-08",
+    "date:cessation_upper": "2026-04-08",
     "date:inception_lower": "2026-04-08",
     "date:inception_upper": "2026-04-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-08",
+    "edtf:cessation": "2026-04-08T13:56:15-07:00",
+    "edtf:inception": "2026-04-08T22:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260408-A-AMX-4356",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N173DZ",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "143779841",
+      "swim:gufi": "KO060515fQ"
+    },
     "wof:country": "US",
     "wof:created": 1775750715,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -51,13 +64,13 @@
     ],
     "wof:id": 2015235721,
     "wof:involves": [
-      102527513,
       102533997,
       1159284261,
-      -1,
-      1159283539
+      1159283539,
+      1159289965,
+      102527513
     ],
-    "wof:lastmodified": 1775750715,
+    "wof:lastmodified": 1775751473,
     "wof:name": "DL534 (HNL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

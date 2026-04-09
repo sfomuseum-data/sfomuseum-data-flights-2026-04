@@ -2,10 +2,12 @@
   "id": 2015241097,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-09",
+    "date:cessation_upper": "2026-04-09",
     "date:inception_lower": "2026-04-08",
     "date:inception_upper": "2026-04-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-08",
+    "edtf:cessation": "2026-04-09T00:35:08Z",
+    "edtf:inception": "2026-04-08T23:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.5070865,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527351,
     "sfomuseum:base_flight_id": "20260408-D-AVA-2103",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N811UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "143588948",
+      "swim:gufi": "KO8200041L"
+    },
     "wof:country": "US",
     "wof:created": 1775751358,
     "wof:geomhash": "6ee4dc6f06435306541ac2ffbe1ad823",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2015241097,
     "wof:involves": [
+      1159285749,
+      1159289407,
       102527351,
       102527513,
       1159285413,
-      1947304519,
-      1159285749
+      1947304519
     ],
-    "wof:lastmodified": 1775751358,
+    "wof:lastmodified": 1775751468,
     "wof:name": "UA2611 (SFO-SBP)",
     "wof:parent_id": 1947304519,
     "wof:placetype": "custom",

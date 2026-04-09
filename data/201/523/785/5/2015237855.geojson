@@ -2,10 +2,12 @@
   "id": 2015237855,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-08",
+    "date:cessation_upper": "2026-04-08",
     "date:inception_lower": "2026-04-08",
     "date:inception_upper": "2026-04-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-08",
+    "edtf:cessation": "2026-04-08T19:24:10Z",
+    "edtf:inception": "2026-04-08T16:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WS",
     "flysfo:date": "2026-04-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.368758,
     "geom:longitude": -118.1959315,
     "iata:airline": "WS",
+    "icao:aircraft": "B38M",
     "icao:airline": "WJA",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102554947,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGULN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "143633070",
+      "swim:gufi": "KS565764MJ"
+    },
     "wof:country": "US",
     "wof:created": 1775750975,
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2015237855,
     "wof:involves": [
+      1528104575,
       102527513,
       102554947,
       1159285523,
       1947304667
     ],
-    "wof:lastmodified": 1775750975,
+    "wof:lastmodified": 1775751475,
     "wof:name": "WS1016 (YYC-SFO)",
     "wof:parent_id": 1947304667,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2015235701,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-08",
+    "date:cessation_upper": "2026-04-08",
     "date:inception_lower": "2026-04-08",
     "date:inception_upper": "2026-04-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-08",
+    "edtf:cessation": "2026-04-08T05:35:55-07:00",
+    "edtf:inception": "2026-04-08T16:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-04-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614645,
     "lbl:longitude": -122.382263,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102521851,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N331DU",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "143633203",
+      "swim:gufi": "KH5448145a"
+    },
     "wof:country": "US",
     "wof:created": 1775750713,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -86,9 +100,10 @@
       102527513,
       102521851,
       1159284261,
-      1947304673
+      1947304673,
+      1813375783
     ],
-    "wof:lastmodified": 1775750713,
+    "wof:lastmodified": 1775751472,
     "wof:name": "DL381 (AUS-SFO)",
     "wof:parent_id": 1947304673,
     "wof:placetype": "custom",
