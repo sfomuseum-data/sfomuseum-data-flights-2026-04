@@ -2,10 +2,12 @@
   "id": 2015249483,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-10",
+    "date:cessation_upper": "2026-04-10",
     "date:inception_lower": "2026-04-09",
     "date:inception_upper": "2026-04-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-09",
+    "edtf:cessation": "2026-04-10T02:50:00Z",
+    "edtf:inception": "2026-04-09T12:13:32-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:base_flight_id": "20260409-D-ACA-4146",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N801UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "143684062"
+    },
     "wof:country": "US",
     "wof:created": 1775837792,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -92,9 +103,10 @@
       102527513,
       1159285413,
       1947304609,
-      1159283597
+      1159283597,
+      1159289407
     ],
-    "wof:lastmodified": 1775837792,
+    "wof:lastmodified": 1775837928,
     "wof:name": "UA2328 (SFO-RNO)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",

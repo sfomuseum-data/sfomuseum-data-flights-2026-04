@@ -2,10 +2,12 @@
   "id": 2015245241,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-09",
+    "date:cessation_upper": "2026-04-09",
     "date:inception_lower": "2026-04-09",
     "date:inception_upper": "2026-04-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-09",
+    "edtf:cessation": "2026-04-09T01:35:39-07:00",
+    "edtf:inception": "2026-04-09T12:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.5435595,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260409-A-ANZ-9504",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N446UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "143700773",
+      "swim:gufi": "KK407325Uy"
+    },
     "wof:country": "US",
     "wof:created": 1775837287,
     "wof:geomhash": "35ddb46351d590846e83b74bc4468cc8",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2015245241,
     "wof:involves": [
+      1159292085,
       102527513,
       102533051,
       1159285413,
       1947304619,
       1159283697
     ],
-    "wof:lastmodified": 1775837287,
+    "wof:lastmodified": 1775837925,
     "wof:name": "UA2051 (MCI-SFO)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",

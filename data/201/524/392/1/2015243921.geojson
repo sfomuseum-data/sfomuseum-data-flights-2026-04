@@ -2,10 +2,12 @@
   "id": 2015243921,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-09",
+    "date:cessation_upper": "2026-04-09",
     "date:inception_lower": "2026-04-09",
     "date:inception_upper": "2026-04-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-09",
+    "edtf:cessation": "2026-04-09T10:48:30-07:00",
+    "edtf:inception": "2026-04-09T23:22:24Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-04-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N654DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "143764245",
+      "swim:gufi": "KS7956157Y"
+    },
     "wof:country": "US",
     "wof:created": 1775837127,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -49,9 +63,9 @@
       102527513,
       102532251,
       1159284261,
-      -1
+      1159289939
     ],
-    "wof:lastmodified": 1775837127,
+    "wof:lastmodified": 1775837924,
     "wof:name": "DL8846 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
