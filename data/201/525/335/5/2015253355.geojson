@@ -2,10 +2,12 @@
   "id": 2015253355,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-10",
+    "date:cessation_upper": "2026-04-10",
     "date:inception_lower": "2026-04-10",
     "date:inception_upper": "2026-04-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-10",
+    "edtf:cessation": "2026-04-10T02:45:38-07:00",
+    "edtf:inception": "2026-04-10T13:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-04-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.231919500000004,
     "geom:longitude": -109.610733,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525799,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N222WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "143798987"
+    },
     "wof:country": "US",
     "wof:created": 1775923641,
     "wof:geomhash": "ecfc64ce72b903780fc129f985c12eef",
@@ -83,12 +94,13 @@
     ],
     "wof:id": 2015253355,
     "wof:involves": [
+      1159289869,
       102527513,
       102525799,
       1159285591,
       1947304599
     ],
-    "wof:lastmodified": 1775923641,
+    "wof:lastmodified": 1775924311,
     "wof:name": "WN644 (DAL-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

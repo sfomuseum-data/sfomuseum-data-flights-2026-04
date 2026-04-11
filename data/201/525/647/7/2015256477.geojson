@@ -2,10 +2,12 @@
   "id": 2015256477,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-10",
+    "date:cessation_upper": "2026-04-10",
     "date:inception_lower": "2026-04-10",
     "date:inception_upper": "2026-04-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-10",
+    "edtf:cessation": "2026-04-10T08:47:00Z",
+    "edtf:inception": "2026-04-10T14:48:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-04-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N695DL",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "143782676"
+    },
     "wof:country": "US",
     "wof:created": 1775924011,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -83,12 +94,13 @@
     ],
     "wof:id": 2015256477,
     "wof:involves": [
+      1159289939,
       102526927,
       102527513,
       1159284261,
       1763588251
     ],
-    "wof:lastmodified": 1775924011,
+    "wof:lastmodified": 1775924317,
     "wof:name": "DL635 (SFO-ATL)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

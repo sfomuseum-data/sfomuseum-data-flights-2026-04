@@ -2,10 +2,12 @@
   "id": 2015258441,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-11",
+    "date:cessation_upper": "2026-04-11",
     "date:inception_lower": "2026-04-10",
     "date:inception_upper": "2026-04-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-10",
+    "edtf:cessation": "2026-04-11T09:12:00Z",
+    "edtf:inception": "2026-04-10T06:50:58-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -0.285817999999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102550331,
     "sfomuseum:base_flight_id": "20260410-D-CCA-7210",
@@ -39,7 +43,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2332U",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "143838672"
+    },
     "wof:country": "US",
     "wof:created": 1775924244,
     "wof:geomhash": "014430cde1a85b033fb3b4a447168595",
@@ -51,13 +62,13 @@
     ],
     "wof:id": 2015258441,
     "wof:involves": [
+      1159289993,
       102550331,
       102527513,
       1159285413,
-      -1,
       1159283605
     ],
-    "wof:lastmodified": 1775924244,
+    "wof:lastmodified": 1775924329,
     "wof:name": "UA857 (SFO-PVG)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
