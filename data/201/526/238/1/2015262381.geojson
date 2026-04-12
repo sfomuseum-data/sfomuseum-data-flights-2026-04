@@ -1,0 +1,72 @@
+{
+  "id": 2015262381,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-04-11",
+    "date:inception_upper": "2026-04-11",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-04-11",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2026-04-11",
+    "flysfo:estimated_timestamp": 1775923200,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA6082",
+    "flysfo:gate": "",
+    "flysfo:journey": "BOI-SFO",
+    "flysfo:scheduled_timestamp": 1775923200,
+    "flysfo:timestamp": 1775923200,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-116.224634,43.564048",
+    "geom:latitude": 40.591019,
+    "geom:longitude": -119.2977885,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102527733,
+    "sfomuseum:flight_id": "20260411-A-UAL-6082",
+    "sfomuseum:flight_number": [
+      "UAL6082",
+      "UA6082"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1776010106,
+    "wof:geomhash": "e506e1cc6e68aaf992ce3bac53e4e4fa",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2015262381,
+        "flight_id": 2015262381
+      }
+    ],
+    "wof:id": 2015262381,
+    "wof:involves": [
+      102527513,
+      102527733,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1776010106,
+    "wof:name": "UA6082 (BOI-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -116.224634,
+    43.564048
+  ],
+  "geometry": {"coordinates":[[-116.224634,43.564048],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
