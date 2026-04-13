@@ -2,10 +2,12 @@
   "id": 2015270413,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-12",
-    "date:inception_upper": "2026-04-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-12",
+    "date:cessation_lower": "2026-04-12",
+    "date:cessation_upper": "2026-04-12",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2026-04-12T05:11:07-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260412-A-UAE-6005",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N26226",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -88,13 +96,14 @@
     ],
     "wof:id": 2015270413,
     "wof:involves": [
+      1159284333,
+      1159289871,
       102527513,
       102530009,
       1159285413,
-      1947304631,
-      1159284333
+      1947304631
     ],
-    "wof:lastmodified": 1776096509,
+    "wof:lastmodified": 1776097139,
     "wof:name": "UA1973 (MSY-SFO)",
     "wof:parent_id": 1947304631,
     "wof:placetype": "custom",

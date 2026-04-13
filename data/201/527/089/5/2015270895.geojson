@@ -2,10 +2,12 @@
   "id": 2015270895,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-12",
-    "date:inception_upper": "2026-04-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-12",
+    "date:cessation_lower": "2026-04-12",
+    "date:cessation_upper": "2026-04-12",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2026-04-12T13:05:30-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-04-12",
@@ -21,6 +23,7 @@
     "geom:latitude": 29.9627305,
     "geom:longitude": -4.221753499999998,
     "iata:airline": "UA",
+    "icao:aircraft": "SF1G",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
@@ -34,6 +37,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2138U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -88,7 +95,7 @@
       1159285413,
       1947304141
     ],
-    "wof:lastmodified": 1776096567,
+    "wof:lastmodified": 1776097148,
     "wof:name": "UA878 (HKG-SFO)",
     "wof:parent_id": 1947304141,
     "wof:placetype": "custom",
