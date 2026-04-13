@@ -1,0 +1,72 @@
+{
+  "id": 2015273173,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-04-12",
+    "date:inception_upper": "2026-04-12",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-04-12",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2026-04-12",
+    "flysfo:estimated_timestamp": 1776006900,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL450",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-SAT",
+    "flysfo:scheduled_timestamp": 1776006900,
+    "flysfo:timestamp": 1776006900,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,29.534838,-98.472784,37.617990",
+    "geom:latitude": 33.576414,
+    "geom:longitude": -110.4218635,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102527373,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20260412-D-DAL-450",
+    "sfomuseum:flight_number": [
+      "DAL450",
+      "DL450"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1776096837,
+    "wof:geomhash": "3d1812cb234aac8b643ea0201167e576",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2015273173,
+        "flight_id": 2015273173
+      }
+    ],
+    "wof:id": 2015273173,
+    "wof:involves": [
+      102527373,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1776096837,
+    "wof:name": "DL450 (SFO-SAT)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    29.534838,
+    -98.472784,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-98.472784,29.534838]],"type":"MultiPoint"}
+}

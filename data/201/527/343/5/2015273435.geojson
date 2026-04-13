@@ -1,0 +1,72 @@
+{
+  "id": 2015273435,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-04-12",
+    "date:inception_upper": "2026-04-12",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-04-12",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "BR",
+    "flysfo:date": "2026-04-12",
+    "flysfo:estimated_timestamp": 1776010800,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "BR650",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-ORD",
+    "flysfo:scheduled_timestamp": 1776010800,
+    "flysfo:timestamp": 1776010800,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-87.894364,41.983038",
+    "geom:latitude": 39.800514,
+    "geom:longitude": -105.1326535,
+    "iata:airline": "BR",
+    "icao:airline": "EVA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284349,
+    "sfomuseum:arrival_id": 102533631,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20260412-D-EVA-650",
+    "sfomuseum:flight_number": [
+      "EVA650",
+      "BR650"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1776096868,
+    "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2015273435,
+        "flight_id": 2015273435
+      }
+    ],
+    "wof:id": 2015273435,
+    "wof:involves": [
+      102533631,
+      102527513,
+      1159284349,
+      -1
+    ],
+    "wof:lastmodified": 1776096868,
+    "wof:name": "BR650 (SFO-ORD)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -87.894364,
+    41.983038
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-87.894364,41.983038]],"type":"MultiPoint"}
+}
