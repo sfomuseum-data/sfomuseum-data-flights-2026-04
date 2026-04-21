@@ -2,10 +2,12 @@
   "id": 2015337965,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-20",
+    "date:cessation_upper": "2026-04-20",
     "date:inception_lower": "2026-04-20",
     "date:inception_upper": "2026-04-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-20",
+    "edtf:cessation": "2026-04-20T06:20:35-07:00",
+    "edtf:inception": "2026-04-20T16:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-04-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.180931,
     "geom:longitude": -106.3692875,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 1746879059,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8873S",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "144625134",
+      "swim:gufi": "KK406772Zv"
+    },
     "wof:country": "US",
     "wof:created": 1776787650,
     "wof:geomhash": "5aed0915f9f8845326df52b0d348a4b7",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2015337965,
     "wof:involves": [
+      1528104575,
       102527513,
       1746879059,
       1159285591,
       1947304599
     ],
-    "wof:lastmodified": 1776787650,
+    "wof:lastmodified": 1776788346,
     "wof:name": "WN1749 (STL-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

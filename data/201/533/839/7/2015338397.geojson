@@ -2,10 +2,12 @@
   "id": 2015338397,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-20",
-    "date:inception_upper": "2026-04-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-20",
+    "date:cessation_lower": "2026-04-20",
+    "date:cessation_upper": "2026-04-20",
+    "date:inception_lower": "2026-04-21",
+    "date:inception_upper": "2026-04-21",
+    "edtf:cessation": "2026-04-20T16:50:32-07:00",
+    "edtf:inception": "2026-04-21T05:44:40Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260420-A-ACA-4211",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N1902U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL152053W5"
+    },
     "wof:country": "US",
     "wof:created": 1776787702,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2015338397,
     "wof:involves": [
-      102527513,
-      102533591,
       1159285413,
       1947304617,
-      1159283597
+      1159283597,
+      1159292085,
+      102527513,
+      102533591
     ],
-    "wof:lastmodified": 1776787702,
+    "wof:lastmodified": 1776788349,
     "wof:name": "UA1870 (PSP-SFO)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",

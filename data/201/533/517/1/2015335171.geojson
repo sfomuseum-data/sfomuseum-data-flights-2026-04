@@ -2,10 +2,12 @@
   "id": 2015335171,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-20",
+    "date:cessation_upper": "2026-04-20",
     "date:inception_lower": "2026-04-20",
     "date:inception_upper": "2026-04-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-20",
+    "edtf:cessation": "2026-04-20T08:23:01-07:00",
+    "edtf:inception": "2026-04-20T20:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2026-04-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N316PF",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "144660264",
+      "swim:gufi": "KA689032B4"
+    },
     "wof:country": "US",
     "wof:created": 1776787291,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2015335171,
     "wof:involves": [
+      1159289871,
       102527513,
       102526751,
       1159283849,
       1947304277
     ],
-    "wof:lastmodified": 1776787291,
+    "wof:lastmodified": 1776788326,
     "wof:name": "AA2813 (PHX-SFO)",
     "wof:parent_id": 1947304277,
     "wof:placetype": "custom",

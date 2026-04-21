@@ -2,10 +2,12 @@
   "id": 2015342799,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-21",
+    "date:cessation_upper": "2026-04-21",
     "date:inception_lower": "2026-04-20",
     "date:inception_upper": "2026-04-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-20",
+    "edtf:cessation": "2026-04-21T02:37:51Z",
+    "edtf:inception": "2026-04-20T11:52:17-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527337,
     "sfomuseum:base_flight_id": "20260420-D-ACA-4362",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N4888U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO0150435T"
+    },
     "wof:country": "US",
     "wof:created": 1776788220,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2015342799,
     "wof:involves": [
+      1159289407,
       102527337,
       102527513,
       1159285413,
       1947304487,
       1159283597
     ],
-    "wof:lastmodified": 1776788220,
+    "wof:lastmodified": 1776788346,
     "wof:name": "UA469 (SFO-SBA)",
     "wof:parent_id": 1947304487,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2015342729,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-20",
+    "date:cessation_upper": "2026-04-20",
     "date:inception_lower": "2026-04-20",
     "date:inception_upper": "2026-04-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-20",
+    "edtf:cessation": "2026-04-20T23:09:00Z",
+    "edtf:inception": "2026-04-20T22:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533591,
     "sfomuseum:base_flight_id": "20260420-D-ACA-4278",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N68822",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "144653872",
+      "swim:gufi": "KO729462k9"
+    },
     "wof:country": "US",
     "wof:created": 1776788212,
     "wof:geomhash": "e84c3ec216fbaf9440bbf99d412a1253",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2015342729,
     "wof:involves": [
+      1947304457,
+      1159283597,
+      1377564285,
       102533591,
       102527513,
-      1159285413,
-      1947304457,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1776788212,
+    "wof:lastmodified": 1776788346,
     "wof:name": "UA2623 (SFO-PSP)",
     "wof:parent_id": 1947304457,
     "wof:placetype": "custom",

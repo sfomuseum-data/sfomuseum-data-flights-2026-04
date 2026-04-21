@@ -2,10 +2,12 @@
   "id": 2015336491,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-20",
-    "date:inception_upper": "2026-04-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-20",
+    "date:cessation_lower": "2026-04-21",
+    "date:cessation_upper": "2026-04-21",
+    "date:inception_lower": "2026-04-21",
+    "date:inception_upper": "2026-04-21",
+    "edtf:cessation": "2026-04-21T05:50:26Z",
+    "edtf:inception": "2026-04-21T00:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.70629299999999,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "ASA",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260420-A-FJI-5805",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N809AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KW822112Vy"
+    },
     "wof:country": "US",
     "wof:created": 1776787472,
     "wof:geomhash": "cfff966b0a5de3ca50080923c4337cfe",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2015336491,
     "wof:involves": [
+      1159283717,
+      1528104575,
       102527513,
       1746879047,
       1159283813,
-      1947304313,
-      1159283717
+      1947304313
     ],
-    "wof:lastmodified": 1776787472,
+    "wof:lastmodified": 1776788334,
     "wof:name": "AS7 (DCA-SFO)",
     "wof:parent_id": 1947304313,
     "wof:placetype": "custom",

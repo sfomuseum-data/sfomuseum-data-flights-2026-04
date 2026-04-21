@@ -2,10 +2,12 @@
   "id": 2015343085,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-21",
+    "date:cessation_upper": "2026-04-21",
     "date:inception_lower": "2026-04-20",
     "date:inception_upper": "2026-04-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-20",
+    "edtf:cessation": "2026-04-21T03:56:00Z",
+    "edtf:inception": "2026-04-20T12:42:55-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-04-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17430",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO024883Af"
+    },
     "wof:country": "US",
     "wof:created": 1776788254,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2015343085,
     "wof:involves": [
-      102528997,
-      102527513,
       1159285413,
-      -1
+      1528104577,
+      102528997,
+      102527513
     ],
-    "wof:lastmodified": 1776788254,
+    "wof:lastmodified": 1776788348,
     "wof:name": "UA8200 (SFO-SAN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

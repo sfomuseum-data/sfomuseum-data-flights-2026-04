@@ -2,10 +2,12 @@
   "id": 2015338295,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-20",
+    "date:cessation_upper": "2026-04-20",
     "date:inception_lower": "2026-04-20",
     "date:inception_upper": "2026-04-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-20",
+    "edtf:cessation": "2026-04-20T05:19:02-07:00",
+    "edtf:inception": "2026-04-20T15:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260420-A-UAE-6107",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77587",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "144624759",
+      "swim:gufi": "KH448332y1"
+    },
     "wof:country": "US",
     "wof:created": 1776787690,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -92,9 +106,10 @@
       102534097,
       1159285413,
       1947304489,
-      1159284333
+      1159284333,
+      1528104577
     ],
-    "wof:lastmodified": 1776787690,
+    "wof:lastmodified": 1776788348,
     "wof:name": "UA1418 (IAH-SFO)",
     "wof:parent_id": 1947304489,
     "wof:placetype": "custom",
