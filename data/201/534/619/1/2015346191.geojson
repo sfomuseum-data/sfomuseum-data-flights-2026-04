@@ -2,10 +2,12 @@
   "id": 2015346191,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-21",
+    "date:cessation_upper": "2026-04-21",
     "date:inception_lower": "2026-04-21",
     "date:inception_upper": "2026-04-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-21",
+    "edtf:cessation": "2026-04-21T08:17:00Z",
+    "edtf:inception": "2026-04-21T02:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260421-A-AFR-2152",
@@ -53,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "144681659",
+      "swim:gufi": "KN030613ep"
+    },
     "wof:country": "US",
     "wof:created": 1776873913,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 2015346191,
     "wof:involves": [
+      1947304675,
+      1159283627,
+      1159289939,
       102527513,
       102534365,
-      1159284261,
-      1947304675,
-      1159283627
+      1159284261
     ],
-    "wof:lastmodified": 1776873913,
+    "wof:lastmodified": 1776874652,
     "wof:name": "DL1732 (JFK-SFO)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",
