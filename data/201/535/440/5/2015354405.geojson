@@ -1,0 +1,72 @@
+{
+  "id": 2015354405,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-04-22",
+    "date:inception_upper": "2026-04-22",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-04-22",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2026-04-22",
+    "flysfo:estimated_timestamp": 1776912600,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "DL8881",
+    "flysfo:gate": "",
+    "flysfo:journey": "MIA-SFO",
+    "flysfo:scheduled_timestamp": 1776911160,
+    "flysfo:timestamp": 1776912600,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,25.790470,-80.296006,37.617990",
+    "geom:latitude": 31.70423,
+    "geom:longitude": -101.3334745,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102531023,
+    "sfomuseum:flight_id": "20260422-A-DAL-8881",
+    "sfomuseum:flight_number": [
+      "DAL8881",
+      "DL8881"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1776960335,
+    "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2015354405,
+        "flight_id": 2015354405
+      }
+    ],
+    "wof:id": 2015354405,
+    "wof:involves": [
+      102527513,
+      102531023,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1776960335,
+    "wof:name": "DL8881 (MIA-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    25.79047,
+    -80.296006,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-80.296006,25.79047],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
