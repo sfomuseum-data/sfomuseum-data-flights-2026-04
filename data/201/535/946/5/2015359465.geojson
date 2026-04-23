@@ -2,10 +2,12 @@
   "id": 2015359465,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-22",
-    "date:inception_upper": "2026-04-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-22",
+    "date:cessation_lower": "2026-04-23",
+    "date:cessation_upper": "2026-04-23",
+    "date:inception_lower": "2026-04-23",
+    "date:inception_upper": "2026-04-23",
+    "edtf:cessation": "2026-04-23T04:47:00Z",
+    "edtf:inception": "2026-04-23T00:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:base_flight_id": "20260422-D-CCA-7312",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37450",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO831204uW"
+    },
     "wof:country": "US",
     "wof:created": 1776960933,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2015359465,
     "wof:involves": [
+      1528104577,
       102528817,
       102527513,
       1159285413,
       1947304453,
       1159283605
     ],
-    "wof:lastmodified": 1776960933,
+    "wof:lastmodified": 1776961089,
     "wof:name": "UA1453 (SFO-IAD)",
     "wof:parent_id": 1947304453,
     "wof:placetype": "custom",

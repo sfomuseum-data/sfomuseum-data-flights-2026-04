@@ -2,10 +2,12 @@
   "id": 2015357027,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-22",
+    "date:cessation_upper": "2026-04-22",
     "date:inception_lower": "2026-04-22",
     "date:inception_upper": "2026-04-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-22",
+    "edtf:cessation": "2026-04-22T23:02:00Z",
+    "edtf:inception": "2026-04-22T07:06:39-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:base_flight_id": "20260422-D-ANZ-4608",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CFCQX",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "144826112",
+      "swim:gufi": "KO592064lk"
+    },
     "wof:country": "US",
     "wof:created": 1776960647,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2015357027,
     "wof:involves": [
+      1159292085,
       102555307,
       102527513,
       1159283597,
       1947304607,
       1159283697
     ],
-    "wof:lastmodified": 1776960647,
+    "wof:lastmodified": 1776961079,
     "wof:name": "AC567 (SFO-YVR)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",
