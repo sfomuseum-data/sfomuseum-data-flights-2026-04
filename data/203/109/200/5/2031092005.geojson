@@ -2,10 +2,12 @@
   "id": 2031092005,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-23",
-    "date:inception_upper": "2026-04-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-23",
+    "date:cessation_lower": "2026-04-24",
+    "date:cessation_upper": "2026-04-24",
+    "date:inception_lower": "2026-04-24",
+    "date:inception_upper": "2026-04-24",
+    "edtf:cessation": "2026-04-23T18:30:37-07:00",
+    "edtf:inception": "2026-04-24T03:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-04-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531205,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8641B",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "144851796",
+      "swim:gufi": "KG0522067M"
+    },
     "wof:country": "US",
     "wof:created": 1777046856,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031092005,
     "wof:involves": [
+      1159289871,
       102527513,
       102531205,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1777046856,
+    "wof:lastmodified": 1777047526,
     "wof:name": "WN1786 (MDW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
