@@ -2,10 +2,12 @@
   "id": 2031103659,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-24",
-    "date:inception_upper": "2026-04-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-24",
+    "date:cessation_lower": "2026-04-25",
+    "date:cessation_upper": "2026-04-25",
+    "date:inception_lower": "2026-04-25",
+    "date:inception_upper": "2026-04-25",
+    "edtf:cessation": "2026-04-25T08:56:27Z",
+    "edtf:inception": "2026-04-25T04:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20260424-D-AMX-4443",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N711ZX",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "144944463",
+      "swim:gufi": "KO099617RF"
+    },
     "wof:country": "US",
     "wof:created": 1777133632,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031103659,
     "wof:involves": [
-      102534365,
-      102527513,
       1159284261,
       1947304675,
-      1159283539
+      1159283539,
+      1159289939,
+      102534365,
+      102527513
     ],
-    "wof:lastmodified": 1777133632,
+    "wof:lastmodified": 1777133959,
     "wof:name": "DL2112 (SFO-JFK)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",

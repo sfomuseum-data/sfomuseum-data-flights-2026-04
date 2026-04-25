@@ -2,10 +2,12 @@
   "id": 2031100869,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-24",
-    "date:inception_upper": "2026-04-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-24",
+    "date:cessation_lower": "2026-04-24",
+    "date:cessation_upper": "2026-04-24",
+    "date:inception_lower": "2026-04-25",
+    "date:inception_upper": "2026-04-25",
+    "edtf:cessation": "2026-04-24T15:27:19-07:00",
+    "edtf:inception": "2026-04-25T04:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260424-A-ACA-4112",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N802UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL033467Tv"
+    },
     "wof:country": "US",
     "wof:created": 1777133308,
     "wof:geomhash": "094b2380067f0814bdd38962ab53e3d3",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031100869,
     "wof:involves": [
-      102527513,
-      102533575,
       1159285413,
       1947304609,
-      1159283597
+      1159283597,
+      1159289407,
+      102527513,
+      102533575
     ],
-    "wof:lastmodified": 1777133308,
+    "wof:lastmodified": 1777133934,
     "wof:name": "UA1665 (ONT-SFO)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",

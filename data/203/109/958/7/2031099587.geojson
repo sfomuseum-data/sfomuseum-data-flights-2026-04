@@ -2,10 +2,12 @@
   "id": 2031099587,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-24",
+    "date:cessation_upper": "2026-04-24",
     "date:inception_lower": "2026-04-24",
     "date:inception_upper": "2026-04-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-24",
+    "edtf:cessation": "2026-04-24T23:26:00Z",
+    "edtf:inception": "2026-04-24T21:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-04-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N652DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "145010752",
+      "swim:gufi": "KS726616pz"
+    },
     "wof:country": "US",
     "wof:created": 1777133156,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031099587,
     "wof:involves": [
-      102527513,
       102533269,
       1159284261,
-      -1
+      1159289939,
+      102527513
     ],
-    "wof:lastmodified": 1777133156,
+    "wof:lastmodified": 1777133940,
     "wof:name": "DL8961 (SEA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

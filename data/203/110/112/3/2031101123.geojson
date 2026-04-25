@@ -2,10 +2,12 @@
   "id": 2031101123,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-24",
+    "date:cessation_upper": "2026-04-24",
     "date:inception_lower": "2026-04-24",
     "date:inception_upper": "2026-04-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-24",
+    "edtf:cessation": "2026-04-24T10:33:00Z",
+    "edtf:inception": "2026-04-24T05:46:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-04-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.799764500000002,
     "geom:longitude": -140.859366,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528943,
@@ -48,6 +52,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "144946025",
+      "swim:gufi": "KO325406ut"
+    },
     "wof:country": "US",
     "wof:created": 1777133337,
     "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 2031101123,
     "wof:involves": [
+      1947304475,
+      1159289939,
       102527513,
       102528943,
-      1159285413,
-      1947304475
+      1159285413
     ],
-    "wof:lastmodified": 1777133337,
+    "wof:lastmodified": 1777133937,
     "wof:name": "UA3912 (LIH-SFO)",
     "wof:parent_id": 1947304475,
     "wof:placetype": "custom",

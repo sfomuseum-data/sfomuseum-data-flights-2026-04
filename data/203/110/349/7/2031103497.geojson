@@ -2,10 +2,12 @@
   "id": 2031103497,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-25",
+    "date:cessation_upper": "2026-04-25",
     "date:inception_lower": "2026-04-24",
     "date:inception_upper": "2026-04-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-24",
+    "edtf:cessation": "2026-04-25T05:17:25Z",
+    "edtf:inception": "2026-04-24T19:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "BA",
     "flysfo:date": "2026-04-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.5440385,
     "geom:longitude": -61.410693,
     "iata:airline": "BA",
+    "icao:aircraft": "B77W",
     "icao:airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159284021,
     "sfomuseum:arrival_id": 102556703,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "GSTBB",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "145072590"
+    },
     "wof:country": "US",
     "wof:created": 1777133613,
     "wof:geomhash": "86f41e039827d60bcd1a72801f72cbc2",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031103497,
     "wof:involves": [
-      102556703,
-      102527513,
       1159284021,
-      -1
+      1159289993,
+      102556703,
+      102527513
     ],
-    "wof:lastmodified": 1777133613,
+    "wof:lastmodified": 1777133959,
     "wof:name": "BA9604 (SFO-LHR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
