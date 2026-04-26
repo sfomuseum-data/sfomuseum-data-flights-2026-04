@@ -2,10 +2,12 @@
   "id": 2031113545,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-26",
+    "date:cessation_upper": "2026-04-26",
     "date:inception_lower": "2026-04-25",
     "date:inception_upper": "2026-04-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-25",
+    "edtf:cessation": "2026-04-26T10:23:36Z",
+    "edtf:inception": "2026-04-25T20:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-04-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.9627305,
     "geom:longitude": -4.221753499999998,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102541737,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2138U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145093909",
+      "swim:gufi": "KO599537M7"
+    },
     "wof:country": "US",
     "wof:created": 1777220179,
     "wof:geomhash": "b8fc8d95bb44b1c6b9f6cb201e4d2ca9",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031113545,
     "wof:involves": [
-      102541737,
       102527513,
       1159285413,
-      1947304151
+      1947304151,
+      1159289993,
+      102541737
     ],
-    "wof:lastmodified": 1777220179,
+    "wof:lastmodified": 1777220278,
     "wof:name": "UA869 (SFO-HKG)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

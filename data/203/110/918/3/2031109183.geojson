@@ -2,10 +2,12 @@
   "id": 2031109183,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-25",
-    "date:inception_upper": "2026-04-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-25",
+    "date:cessation_lower": "2026-04-25",
+    "date:cessation_upper": "2026-04-25",
+    "date:inception_lower": "2026-04-26",
+    "date:inception_upper": "2026-04-26",
+    "edtf:cessation": "2026-04-25T16:16:42-07:00",
+    "edtf:inception": "2026-04-26T01:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620164,
     "lbl:longitude": -122.387194,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260425-A-ACA-3519",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17402",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145032093",
+      "swim:gufi": "KO172531pu"
+    },
     "wof:country": "US",
     "wof:created": 1777219677,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -92,9 +106,10 @@
       102533997,
       1159285413,
       1930457221,
-      1159283597
+      1159283597,
+      1528104577
     ],
-    "wof:lastmodified": 1777219677,
+    "wof:lastmodified": 1777220275,
     "wof:name": "UA1947 (HNL-SFO)",
     "wof:parent_id": 1930457221,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031107425,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-26",
+    "date:cessation_upper": "2026-04-26",
     "date:inception_lower": "2026-04-25",
     "date:inception_upper": "2026-04-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-25",
+    "edtf:cessation": "2026-04-26T06:00:59Z",
+    "edtf:inception": "2026-04-25T23:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2026-04-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 24.105522999999998,
     "geom:longitude": -103.9582495,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102537565,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N933AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145110024",
+      "swim:gufi": "KO768747FT"
+    },
     "wof:country": "US",
     "wof:created": 1777219467,
     "wof:geomhash": "71bb587b8c9d0b605ad2c4f0a951ea9c",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031107425,
     "wof:involves": [
+      1528104577,
       102527513,
       102537565,
       1159283813,
       1947304311
     ],
-    "wof:lastmodified": 1777219467,
+    "wof:lastmodified": 1777220264,
     "wof:name": "AS457 (LIR-SFO)",
     "wof:parent_id": 1947304311,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031113195,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-25",
-    "date:inception_upper": "2026-04-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-25",
+    "date:cessation_lower": "2026-04-26",
+    "date:cessation_upper": "2026-04-26",
+    "date:inception_lower": "2026-04-26",
+    "date:inception_upper": "2026-04-26",
+    "edtf:cessation": "2026-04-26T07:37:00Z",
+    "edtf:inception": "2026-04-26T06:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:base_flight_id": "20260425-D-ACA-4059",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17432",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145041306"
+    },
     "wof:country": "US",
     "wof:created": 1777220138,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031113195,
     "wof:involves": [
+      1528104577,
       102527209,
       102527513,
       1159285413,
       1947304519,
       1159283597
     ],
-    "wof:lastmodified": 1777220138,
+    "wof:lastmodified": 1777220275,
     "wof:name": "UA2400 (SFO-LAS)",
     "wof:parent_id": 1947304519,
     "wof:placetype": "custom",
