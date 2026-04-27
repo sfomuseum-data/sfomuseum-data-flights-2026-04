@@ -2,10 +2,12 @@
   "id": 2031121609,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-26",
-    "date:inception_upper": "2026-04-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-26",
+    "date:cessation_lower": "2026-04-27",
+    "date:cessation_upper": "2026-04-27",
+    "date:inception_lower": "2026-04-27",
+    "date:inception_upper": "2026-04-27",
+    "edtf:cessation": "2026-04-27T04:11:00Z",
+    "edtf:inception": "2026-04-27T02:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20260426-D-ANA-7304",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N1902U",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO0223023p"
+    },
     "wof:country": "US",
     "wof:created": 1777306629,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1763588337,
-      1159283875
+      1159283875,
+      1159292085
     ],
-    "wof:lastmodified": 1777306629,
+    "wof:lastmodified": 1777306781,
     "wof:name": "UA1763 (SFO-SEA)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

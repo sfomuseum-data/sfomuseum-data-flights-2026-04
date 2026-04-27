@@ -2,10 +2,12 @@
   "id": 2031121669,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-27",
+    "date:cessation_upper": "2026-04-27",
     "date:inception_lower": "2026-04-26",
     "date:inception_upper": "2026-04-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-26",
+    "edtf:cessation": "2026-04-27T02:42:00Z",
+    "edtf:inception": "2026-04-26T23:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20260426-D-ACA-5117",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145183582"
+    },
     "wof:country": "US",
     "wof:created": 1777306636,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2031121669,
     "wof:involves": [
-      102528541,
       102527513,
       1159285413,
       1947304603,
-      1159283597
+      1159283597,
+      1159289411,
+      102528541
     ],
-    "wof:lastmodified": 1777306636,
+    "wof:lastmodified": 1777306781,
     "wof:name": "UA2077 (SFO-DFW)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

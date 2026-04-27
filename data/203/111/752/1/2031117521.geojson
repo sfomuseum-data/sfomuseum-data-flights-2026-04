@@ -2,10 +2,12 @@
   "id": 2031117521,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-26",
+    "date:cessation_upper": "2026-04-26",
     "date:inception_lower": "2026-04-26",
     "date:inception_upper": "2026-04-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-26",
+    "edtf:cessation": "2026-04-26T11:21:00Z",
+    "edtf:inception": "2026-04-26T06:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-04-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.799764500000002,
     "geom:longitude": -140.859366,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528943,
@@ -35,6 +39,10 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "145123854",
+      "swim:gufi": "KO353881SV"
+    },
     "wof:country": "US",
     "wof:created": 1777306146,
     "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
@@ -46,12 +54,12 @@
     ],
     "wof:id": 2031117521,
     "wof:involves": [
+      1159289939,
       102527513,
       102528943,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1777306146,
+    "wof:lastmodified": 1777306795,
     "wof:name": "UA2308 (LIH-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

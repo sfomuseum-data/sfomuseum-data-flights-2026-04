@@ -2,10 +2,12 @@
   "id": 2031120175,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-27",
+    "date:cessation_upper": "2026-04-27",
     "date:inception_lower": "2026-04-26",
     "date:inception_upper": "2026-04-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-26",
+    "edtf:cessation": "2026-04-27T02:51:00Z",
+    "edtf:inception": "2026-04-26T10:22:53-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "LAN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20260426-D-LAN-6138",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N348NB",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO015622G8"
+    },
     "wof:country": "US",
     "wof:created": 1777306460,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -92,9 +105,10 @@
       102527513,
       1159284261,
       1763588251,
-      1159285641
+      1159285641,
+      1159289407
     ],
-    "wof:lastmodified": 1777306460,
+    "wof:lastmodified": 1777306770,
     "wof:name": "DL1559 (SFO-LAX)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

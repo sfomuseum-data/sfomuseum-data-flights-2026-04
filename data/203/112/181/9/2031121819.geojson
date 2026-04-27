@@ -2,10 +2,12 @@
   "id": 2031121819,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-26",
+    "date:cessation_upper": "2026-04-26",
     "date:inception_lower": "2026-04-26",
     "date:inception_upper": "2026-04-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-26",
+    "edtf:cessation": "2026-04-26T14:48:00Z",
+    "edtf:inception": "2026-04-26T12:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-04-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +55,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145180872"
+    },
     "wof:country": "US",
     "wof:created": 1777306654,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -83,12 +93,13 @@
     ],
     "wof:id": 2031121819,
     "wof:involves": [
-      102531189,
       102527513,
       1159285413,
-      1947304531
+      1947304531,
+      1159289939,
+      102531189
     ],
-    "wof:lastmodified": 1777306654,
+    "wof:lastmodified": 1777306783,
     "wof:name": "UA3889 (SFO-DEN)",
     "wof:parent_id": 1947304531,
     "wof:placetype": "custom",

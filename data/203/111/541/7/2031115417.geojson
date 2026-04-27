@@ -2,10 +2,12 @@
   "id": 2031115417,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-26",
-    "date:inception_upper": "2026-04-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-26",
+    "date:cessation_lower": "2026-04-27",
+    "date:cessation_upper": "2026-04-27",
+    "date:inception_lower": "2026-04-27",
+    "date:inception_upper": "2026-04-27",
+    "edtf:cessation": "2026-04-26T17:51:01-07:00",
+    "edtf:inception": "2026-04-27T06:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2026-04-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N579AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS134542hp"
+    },
     "wof:country": "US",
     "wof:created": 1777305889,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031115417,
     "wof:involves": [
+      1947304387,
+      1159289871,
       102527513,
       102533269,
-      1159283813,
-      1947304387
+      1159283813
     ],
-    "wof:lastmodified": 1777305889,
+    "wof:lastmodified": 1777306779,
     "wof:name": "AS511 (SEA-SFO)",
     "wof:parent_id": 1947304387,
     "wof:placetype": "custom",

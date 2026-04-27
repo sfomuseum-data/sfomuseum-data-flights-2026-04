@@ -2,10 +2,12 @@
   "id": 2031121473,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-26",
+    "date:cessation_upper": "2026-04-26",
     "date:inception_lower": "2026-04-26",
     "date:inception_upper": "2026-04-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-26",
+    "edtf:cessation": "2026-04-26T18:57:00Z",
+    "edtf:inception": "2026-04-26T04:22:27-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-04-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620164,
     "lbl:longitude": -122.387194,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N26232",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145157395",
+      "swim:gufi": "KO605751f2"
+    },
     "wof:country": "US",
     "wof:created": 1777306613,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031121473,
     "wof:involves": [
+      1159289871,
       102525535,
       102527513,
       1159285413,
       1930457221
     ],
-    "wof:lastmodified": 1777306613,
+    "wof:lastmodified": 1777306779,
     "wof:name": "UA1095 (SFO-RNO)",
     "wof:parent_id": 1930457221,
     "wof:placetype": "custom",
