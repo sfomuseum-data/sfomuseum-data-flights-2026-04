@@ -2,10 +2,12 @@
   "id": 2031124537,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-27",
-    "date:inception_upper": "2026-04-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-27",
+    "date:cessation_lower": "2026-04-27",
+    "date:cessation_upper": "2026-04-27",
+    "date:inception_lower": "2026-04-28",
+    "date:inception_upper": "2026-04-28",
+    "edtf:cessation": "2026-04-27T15:00:11-07:00",
+    "edtf:inception": "2026-04-28T03:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.614645,
     "lbl:longitude": -122.382263,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260427-A-KLM-7029",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N359NB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145258452",
+      "swim:gufi": "KU0288130S"
+    },
     "wof:country": "US",
     "wof:created": 1777392349,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031124537,
     "wof:involves": [
+      1159289407,
       102527513,
       102527363,
       1159284261,
       1947304673,
       1159284613
     ],
-    "wof:lastmodified": 1777392349,
+    "wof:lastmodified": 1777393162,
     "wof:name": "DL2762 (SLC-SFO)",
     "wof:parent_id": 1947304673,
     "wof:placetype": "custom",

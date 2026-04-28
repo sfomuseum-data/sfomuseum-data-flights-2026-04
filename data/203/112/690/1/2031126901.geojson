@@ -2,10 +2,12 @@
   "id": 2031126901,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-27",
-    "date:inception_upper": "2026-04-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-27",
+    "date:cessation_lower": "2026-04-27",
+    "date:cessation_upper": "2026-04-27",
+    "date:inception_lower": "2026-04-28",
+    "date:inception_upper": "2026-04-28",
+    "edtf:cessation": "2026-04-27T10:43:00Z",
+    "edtf:inception": "2026-04-27T18:38:58-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "CPA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20260427-D-CPA-7582",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N188US",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145198571",
+      "swim:gufi": "KO242612ZX"
+    },
     "wof:country": "US",
     "wof:created": 1777392633,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -92,9 +106,10 @@
       102527513,
       1159283849,
       1947304291,
-      1159284127
+      1159284127,
+      1159289411
     ],
-    "wof:lastmodified": 1777392633,
+    "wof:lastmodified": 1777393166,
     "wof:name": "AA3070 (SFO-DFW)",
     "wof:parent_id": 1947304291,
     "wof:placetype": "custom",

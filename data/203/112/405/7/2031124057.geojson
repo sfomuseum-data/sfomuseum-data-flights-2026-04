@@ -2,10 +2,12 @@
   "id": 2031124057,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-27",
+    "date:cessation_upper": "2026-04-27",
     "date:inception_lower": "2026-04-27",
     "date:inception_upper": "2026-04-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-27",
+    "edtf:cessation": "2026-04-27T11:35:37-07:00",
+    "edtf:inception": "2026-04-27T22:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260427-A-AAL-7457",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N467AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145251630",
+      "swim:gufi": "KL00441382"
+    },
     "wof:country": "US",
     "wof:created": 1777392290,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -92,9 +106,10 @@
       102536481,
       1159283813,
       1947304385,
-      1159283849
+      1159283849,
+      1377564285
     ],
-    "wof:lastmodified": 1777392290,
+    "wof:lastmodified": 1777393161,
     "wof:name": "AS644 (PVR-SFO)",
     "wof:parent_id": 1947304385,
     "wof:placetype": "custom",

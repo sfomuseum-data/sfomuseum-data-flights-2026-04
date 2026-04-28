@@ -2,10 +2,12 @@
   "id": 2031129811,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-27",
+    "date:cessation_upper": "2026-04-27",
     "date:inception_lower": "2026-04-27",
     "date:inception_upper": "2026-04-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-27",
+    "edtf:cessation": "2026-04-27T17:02:00Z",
+    "edtf:inception": "2026-04-27T14:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:base_flight_id": "20260427-D-ACA-5289",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N841UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145213264",
+      "swim:gufi": "KO478942mg"
+    },
     "wof:country": "US",
     "wof:created": 1777392984,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1763588337,
-      1159283597
+      1159283597,
+      1159289407
     ],
-    "wof:lastmodified": 1777392984,
+    "wof:lastmodified": 1777393168,
     "wof:name": "UA1107 (SFO-AUS)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

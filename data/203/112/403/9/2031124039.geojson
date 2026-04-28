@@ -2,10 +2,12 @@
   "id": 2031124039,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-27",
+    "date:cessation_upper": "2026-04-27",
     "date:inception_lower": "2026-04-27",
     "date:inception_upper": "2026-04-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-27",
+    "edtf:cessation": "2026-04-27T23:30:00Z",
+    "edtf:inception": "2026-04-27T22:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.4384925,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260427-A-AAL-7516",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N524AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145251623",
+      "swim:gufi": "KL754912S7"
+    },
     "wof:country": "US",
     "wof:created": 1777392288,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031124039,
     "wof:involves": [
+      1947304303,
+      1159283849,
+      1159289871,
       102527513,
       102533591,
-      1159283813,
-      1947304303,
-      1159283849
+      1159283813
     ],
-    "wof:lastmodified": 1777392288,
+    "wof:lastmodified": 1777393161,
     "wof:name": "AS424 (PSP-SFO)",
     "wof:parent_id": 1947304303,
     "wof:placetype": "custom",

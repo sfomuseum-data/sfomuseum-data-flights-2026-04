@@ -2,10 +2,12 @@
   "id": 2031123947,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-27",
-    "date:inception_upper": "2026-04-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-27",
+    "date:cessation_lower": "2026-04-27",
+    "date:cessation_upper": "2026-04-27",
+    "date:inception_lower": "2026-04-28",
+    "date:inception_upper": "2026-04-28",
+    "edtf:cessation": "2026-04-27T11:19:00-07:00",
+    "edtf:inception": "2026-04-28T00:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.7636915,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260427-A-AAL-9350",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N533AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145185676",
+      "swim:gufi": "KL826342MR"
+    },
     "wof:country": "US",
     "wof:created": 1777392277,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031123947,
     "wof:involves": [
+      1159283849,
+      1159289871,
       102527513,
       102527209,
       1159283813,
-      1947304267,
-      1159283849
+      1947304267
     ],
-    "wof:lastmodified": 1777392277,
+    "wof:lastmodified": 1777393161,
     "wof:name": "AS1347 (LAS-SFO)",
     "wof:parent_id": 1947304267,
     "wof:placetype": "custom",

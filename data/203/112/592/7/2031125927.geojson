@@ -2,10 +2,12 @@
   "id": 2031125927,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-27",
+    "date:cessation_upper": "2026-04-27",
     "date:inception_lower": "2026-04-27",
     "date:inception_upper": "2026-04-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-27",
+    "edtf:cessation": "2026-04-27T10:19:00-07:00",
+    "edtf:inception": "2026-04-27T23:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.3621325,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618578,
     "lbl:longitude": -122.385434,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260427-A-ACA-3990",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N848UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145255708",
+      "swim:gufi": "KL780792J8"
+    },
     "wof:country": "US",
     "wof:created": 1777392518,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031125927,
     "wof:involves": [
+      1159289407,
       102527513,
       1746879083,
       1159285413,
       1947304495,
       1159283597
     ],
-    "wof:lastmodified": 1777392518,
+    "wof:lastmodified": 1777393151,
     "wof:name": "UA2154 (BUR-SFO)",
     "wof:parent_id": 1947304495,
     "wof:placetype": "custom",
