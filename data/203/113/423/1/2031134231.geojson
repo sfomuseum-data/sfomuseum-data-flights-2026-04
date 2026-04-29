@@ -2,10 +2,12 @@
   "id": 2031134231,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-29",
+    "date:cessation_upper": "2026-04-29",
     "date:inception_lower": "2026-04-28",
     "date:inception_upper": "2026-04-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-28",
+    "edtf:cessation": "2026-04-29T01:33:00Z",
+    "edtf:inception": "2026-04-28T21:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260428-A-ACA-4375",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145327700"
+    },
     "wof:country": "US",
     "wof:created": 1777478910,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -92,9 +102,10 @@
       102533631,
       1159285413,
       1947304491,
-      1159283597
+      1159283597,
+      1159289945
     ],
-    "wof:lastmodified": 1777478910,
+    "wof:lastmodified": 1777479470,
     "wof:name": "UA511 (ORD-SFO)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

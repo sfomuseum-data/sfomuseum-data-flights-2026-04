@@ -2,10 +2,12 @@
   "id": 2031136453,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-29",
+    "date:cessation_upper": "2026-04-29",
     "date:inception_lower": "2026-04-28",
     "date:inception_upper": "2026-04-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-28",
+    "edtf:cessation": "2026-04-29T10:05:00Z",
+    "edtf:inception": "2026-04-28T16:16:51-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:base_flight_id": "20260428-D-AMX-3353",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N6713Y",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO168614NU"
+    },
     "wof:country": "US",
     "wof:created": 1777479178,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -92,9 +105,10 @@
       102527513,
       1159284261,
       1947304671,
-      1159283539
+      1159283539,
+      1159289939
     ],
-    "wof:lastmodified": 1777479178,
+    "wof:lastmodified": 1777479462,
     "wof:name": "DL365 (SFO-ATL)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",

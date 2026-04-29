@@ -2,10 +2,12 @@
   "id": 2031138075,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-28",
+    "date:cessation_upper": "2026-04-28",
     "date:inception_lower": "2026-04-28",
     "date:inception_upper": "2026-04-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-28",
+    "edtf:cessation": "2026-04-28T16:35:00Z",
+    "edtf:inception": "2026-04-28T01:29:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618678,
     "lbl:longitude": -122.385955,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533591,
     "sfomuseum:base_flight_id": "20260428-D-ACA-4212",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N11206",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145298199",
+      "swim:gufi": "KO520653tJ"
+    },
     "wof:country": "US",
     "wof:created": 1777479369,
     "wof:geomhash": "e84c3ec216fbaf9440bbf99d412a1253",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304481,
-      1159283597
+      1159283597,
+      1159289871
     ],
-    "wof:lastmodified": 1777479369,
+    "wof:lastmodified": 1777479466,
     "wof:name": "UA717 (SFO-PSP)",
     "wof:parent_id": 1947304481,
     "wof:placetype": "custom",

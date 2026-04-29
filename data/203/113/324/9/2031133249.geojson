@@ -2,10 +2,12 @@
   "id": 2031133249,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-28",
+    "date:cessation_upper": "2026-04-28",
     "date:inception_lower": "2026-04-28",
     "date:inception_upper": "2026-04-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-28",
+    "edtf:cessation": "2026-04-28T05:07:33-07:00",
+    "edtf:inception": "2026-04-28T12:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.2547305,
     "iata:airline": "B6",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "icao:base_airline": "AZU",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260428-A-AZU-7728",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N937JB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145281560",
+      "swim:gufi": "KR356853h8"
+    },
     "wof:country": "US",
     "wof:created": 1777478793,
     "wof:geomhash": "d17d7e3187ba5afa3de1a7310fca2526",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031133249,
     "wof:involves": [
+      1159289411,
       102527513,
       102530841,
       1159284583,
       1947304301,
       1779770723
     ],
-    "wof:lastmodified": 1777478793,
+    "wof:lastmodified": 1777479454,
     "wof:name": "B6577 (FLL-SFO)",
     "wof:parent_id": 1947304301,
     "wof:placetype": "custom",

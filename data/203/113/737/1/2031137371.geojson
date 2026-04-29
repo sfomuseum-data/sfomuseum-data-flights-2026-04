@@ -2,10 +2,12 @@
   "id": 2031137371,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-28",
+    "date:cessation_upper": "2026-04-28",
     "date:inception_lower": "2026-04-28",
     "date:inception_upper": "2026-04-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-28",
+    "edtf:cessation": "2026-04-28T21:15:00Z",
+    "edtf:inception": "2026-04-28T20:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-04-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7160145,
     "geom:longitude": -120.259968,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102528985,
     "sfomuseum:departure_id": 102527513,
@@ -35,6 +39,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "145384186"
+    },
     "wof:country": "US",
     "wof:created": 1777479285,
     "wof:geomhash": "eb36f7fd50c4e3281bc24d5224da58d3",
@@ -49,9 +56,9 @@
       102528985,
       102527513,
       1159285591,
-      -1
+      1528104575
     ],
-    "wof:lastmodified": 1777479285,
+    "wof:lastmodified": 1777479472,
     "wof:name": "WN8516 (SFO-LGB)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
