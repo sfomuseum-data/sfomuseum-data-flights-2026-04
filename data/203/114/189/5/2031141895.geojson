@@ -2,10 +2,12 @@
   "id": 2031141895,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-29",
+    "date:cessation_upper": "2026-04-29",
     "date:inception_lower": "2026-04-29",
     "date:inception_upper": "2026-04-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-29",
+    "edtf:cessation": "2026-04-29T10:11:15-07:00",
+    "edtf:inception": "2026-04-29T12:46:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-04-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.0794145,
     "geom:longitude": -2.117622499999996,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102550865,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N209UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145359647",
+      "swim:gufi": "KO810524rM"
+    },
     "wof:country": "US",
     "wof:created": 1777565340,
     "wof:geomhash": "9b7a8ac18e2e6d9aa22af32dfdd43b07",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031141895,
     "wof:involves": [
+      1159289985,
       102527513,
       102550865,
       1159285413,
       1947304153
     ],
-    "wof:lastmodified": 1777565340,
+    "wof:lastmodified": 1777565939,
     "wof:name": "UA3879 (XMN-SFO)",
     "wof:parent_id": 1947304153,
     "wof:placetype": "custom",

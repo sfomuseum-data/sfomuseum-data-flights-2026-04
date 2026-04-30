@@ -2,10 +2,12 @@
   "id": 2031141899,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-29",
+    "date:cessation_upper": "2026-04-29",
     "date:inception_lower": "2026-04-29",
     "date:inception_upper": "2026-04-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-29",
+    "edtf:cessation": "2026-04-29T18:06:00Z",
+    "edtf:inception": "2026-04-29T12:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-04-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A321",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533657,
@@ -35,6 +39,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "145373828"
+    },
     "wof:country": "US",
     "wof:created": 1777565340,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -46,12 +53,12 @@
     ],
     "wof:id": 2031141899,
     "wof:involves": [
+      1159289411,
       102527513,
       102533657,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1777565340,
+    "wof:lastmodified": 1777565939,
     "wof:name": "UA3882 (MCO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

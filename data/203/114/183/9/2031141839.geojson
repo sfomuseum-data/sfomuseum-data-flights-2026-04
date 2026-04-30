@@ -2,10 +2,12 @@
   "id": 2031141839,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-29",
+    "date:cessation_upper": "2026-04-29",
     "date:inception_lower": "2026-04-29",
     "date:inception_upper": "2026-04-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-29",
+    "edtf:cessation": "2026-04-29T05:11:07-07:00",
+    "edtf:inception": "2026-04-29T15:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260429-A-CCA-7266",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N892UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145373024",
+      "swim:gufi": "KP46590483"
+    },
     "wof:country": "US",
     "wof:created": 1777565333,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031141839,
     "wof:involves": [
+      1159289407,
       102527513,
       102531131,
       1159285413,
       1947304613,
       1159283605
     ],
-    "wof:lastmodified": 1777565333,
+    "wof:lastmodified": 1777565938,
     "wof:name": "UA2610 (MSP-SFO)",
     "wof:parent_id": 1947304613,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031146089,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-29",
+    "date:cessation_upper": "2026-04-29",
     "date:inception_lower": "2026-04-29",
     "date:inception_upper": "2026-04-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-29",
+    "edtf:cessation": "2026-04-29T23:00:00Z",
+    "edtf:inception": "2026-04-29T20:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-04-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.461048500000004,
     "geom:longitude": -108.5435595,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533051,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N434UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "145405515",
+      "swim:gufi": "KO6812642U"
+    },
     "wof:country": "US",
     "wof:created": 1777565837,
     "wof:geomhash": "b03a18c879ef85a5ca01fa93c99f372c",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031146089,
     "wof:involves": [
+      1159292085,
       102533051,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1777565837,
+    "wof:lastmodified": 1777565935,
     "wof:name": "UA8114 (SFO-MCI)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

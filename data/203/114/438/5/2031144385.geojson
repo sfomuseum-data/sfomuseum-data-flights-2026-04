@@ -2,10 +2,12 @@
   "id": 2031144385,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-29",
-    "date:inception_upper": "2026-04-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-29",
+    "date:cessation_lower": "2026-04-30",
+    "date:cessation_upper": "2026-04-30",
+    "date:inception_lower": "2026-04-30",
+    "date:inception_upper": "2026-04-30",
+    "edtf:cessation": "2026-04-30T11:06:00Z",
+    "edtf:inception": "2026-04-30T06:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20260429-D-AMX-4305",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145356339"
+    },
     "wof:country": "US",
     "wof:created": 1777565637,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -92,9 +102,10 @@
       102527513,
       1159284261,
       1947304681,
-      1159283539
+      1159283539,
+      1159289965
     ],
-    "wof:lastmodified": 1777565637,
+    "wof:lastmodified": 1777565930,
     "wof:name": "DL670 (SFO-JFK)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",
