@@ -2,10 +2,12 @@
   "id": 2031146695,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-30",
+    "date:cessation_upper": "2026-04-30",
     "date:inception_lower": "2026-04-30",
     "date:inception_upper": "2026-04-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-30",
+    "edtf:cessation": "2026-04-30T13:30:49-07:00",
+    "edtf:inception": "2026-04-30T22:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "icao:base_airline": "FIN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260430-A-FIN-4019",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N987AN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145508251"
+    },
     "wof:country": "US",
     "wof:created": 1777651330,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -92,9 +105,10 @@
       102528541,
       1159283849,
       1947304309,
-      1159284389
+      1159284389,
+      1159289871
     ],
-    "wof:lastmodified": 1777651330,
+    "wof:lastmodified": 1777652387,
     "wof:name": "AA2810 (DFW-SFO)",
     "wof:parent_id": 1947304309,
     "wof:placetype": "custom",

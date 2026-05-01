@@ -2,10 +2,12 @@
   "id": 2031150085,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-04-30",
-    "date:inception_upper": "2026-04-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-30",
+    "date:cessation_lower": "2026-04-30",
+    "date:cessation_upper": "2026-04-30",
+    "date:inception_lower": "2026-05-01",
+    "date:inception_upper": "2026-05-01",
+    "edtf:cessation": "2026-04-30T14:53:36-07:00",
+    "edtf:inception": "2026-05-01T03:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-04-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.577286,
     "geom:longitude": -122.336266,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618578,
     "lbl:longitude": -122.385434,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527671,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77426",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS052346mo"
+    },
     "wof:country": "US",
     "wof:created": 1777651766,
     "wof:geomhash": "968bb026a0fa1cef9842447a45b980d7",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031150085,
     "wof:involves": [
+      1528104577,
       102527513,
       102527671,
       1159285413,
       1947304495
     ],
-    "wof:lastmodified": 1777651766,
+    "wof:lastmodified": 1777652387,
     "wof:name": "UA3755 (BFI-SFO)",
     "wof:parent_id": 1947304495,
     "wof:placetype": "custom",

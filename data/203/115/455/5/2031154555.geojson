@@ -2,10 +2,12 @@
   "id": 2031154555,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-30",
+    "date:cessation_upper": "2026-04-30",
     "date:inception_lower": "2026-04-30",
     "date:inception_upper": "2026-04-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-30",
+    "edtf:cessation": "2026-04-30T21:15:00Z",
+    "edtf:inception": "2026-04-30T05:36:56-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-04-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N27256",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "145489697",
+      "swim:gufi": "KO664285LS"
+    },
     "wof:country": "US",
     "wof:created": 1777652296,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031154555,
     "wof:involves": [
+      1528104575,
       102533269,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1777652296,
+    "wof:lastmodified": 1777652428,
     "wof:name": "UA8244 (SFO-SEA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

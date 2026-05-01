@@ -2,10 +2,12 @@
   "id": 2031149495,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-04-30",
+    "date:cessation_upper": "2026-04-30",
     "date:inception_lower": "2026-04-30",
     "date:inception_upper": "2026-04-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-04-30",
+    "edtf:cessation": "2026-04-30T02:54:02-07:00",
+    "edtf:inception": "2026-04-30T13:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-04-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.231919500000004,
     "geom:longitude": -109.610733,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525799,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N208WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "145453970",
+      "swim:gufi": "KF405055oG"
+    },
     "wof:country": "US",
     "wof:created": 1777651694,
     "wof:geomhash": "ecfc64ce72b903780fc129f985c12eef",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031149495,
     "wof:involves": [
-      102527513,
       102525799,
       1159285591,
-      1947304597
+      1947304597,
+      1159289869,
+      102527513
     ],
-    "wof:lastmodified": 1777651694,
+    "wof:lastmodified": 1777652417,
     "wof:name": "WN644 (DAL-SFO)",
     "wof:parent_id": 1947304597,
     "wof:placetype": "custom",
