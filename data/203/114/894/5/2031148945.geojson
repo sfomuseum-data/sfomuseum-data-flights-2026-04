@@ -1,0 +1,109 @@
+{
+  "id": 2031148945,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-04-30",
+    "date:inception_upper": "2026-04-30",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-04-30",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "IB",
+    "flysfo:date": "2026-04-30",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "IB2621",
+    "flysfo:gate": "A15",
+    "flysfo:journey": "BCN-SFO",
+    "flysfo:scheduled_timestamp": 1777596900,
+    "flysfo:timestamp": 1777596900,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,2.081322,41.296019",
+    "geom:latitude": 39.4570045,
+    "geom:longitude": -60.1448105,
+    "iata:airline": "IB",
+    "icao:airline": "IBE",
+    "lbl:latitude": 37.611664,
+    "lbl:longitude": -122.390495,
+    "sfomuseum:airline_id": 1159284511,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102545733,
+    "sfomuseum:flight_id": "20260430-A-IBE-2621",
+    "sfomuseum:flight_number": [
+      "IBE2621",
+      "IB2621"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [
+      1947304067,
+      102527513,
+      1947304073,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1947304095,
+      1947304069,
+      102085387
+    ],
+    "wof:country": "US",
+    "wof:created": 1777651626,
+    "wof:geomhash": "7a64189ee84e1d057c670ad6a60700c7",
+    "wof:hierarchy": [
+      {
+        "building_id": 1947304067,
+        "campus_id": 102527513,
+        "concourse_id": 1947304073,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102087579,
+        "custom_id": 2031148945,
+        "flight_id": 2031148945,
+        "locality_id": 85922583,
+        "postalcode_id": 554784711,
+        "region_id": 85688637,
+        "venue_id": 1947304095,
+        "wing_id": 1947304069
+      },
+      {
+        "building_id": 1947304067,
+        "campus_id": 102527513,
+        "concourse_id": 1947304073,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102085387,
+        "custom_id": 2031148945,
+        "flight_id": 2031148945,
+        "region_id": 85688637,
+        "venue_id": 1947304095,
+        "wing_id": 1947304069
+      }
+    ],
+    "wof:id": 2031148945,
+    "wof:involves": [
+      102527513,
+      102545733,
+      1159284511,
+      1947304095
+    ],
+    "wof:lastmodified": 1777651626,
+    "wof:name": "IB2621 (BCN-SFO)",
+    "wof:parent_id": 1947304095,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-04",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    2.081322,
+    41.296019
+  ],
+  "geometry": {"coordinates":[[2.081322,41.296019],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
